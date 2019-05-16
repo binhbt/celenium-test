@@ -50,8 +50,8 @@ from xvfbwrapper import Xvfb
 def auth_fb():
 
 
-    display = Xvfb()
-    display.start()
+    # display = Xvfb()
+    # display.start()
 
     _browser_profile = webdriver.FirefoxProfile()
     _browser_profile.set_preference("dom.webnotifications.enabled", False)
@@ -86,7 +86,7 @@ def auth_fb():
     time.sleep(2)
     elem4 = driver.find_element_by_xpath('//button[@data-testid="react-composer-post-button"]')
     elem4.click()
-    display.stop()
+    # display.stop()
 #
 # def open_group(url):
 #     try:
