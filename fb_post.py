@@ -1,8 +1,8 @@
 #export PATH=$PATH:/home/leo/Downloads/geckodriver-v0.24.0-linux32
 
 
-# pstempien@coretechnology.pl
-# Sigma2017@
+# email
+# p
 # from selenium import webdriver
 # from xvfbwrapper import Xvfb
 #
