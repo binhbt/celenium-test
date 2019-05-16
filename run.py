@@ -9,8 +9,8 @@ def excute_command(command):
    print(command)
    subprocess.run(command, shell=True)
 
-email = 'pstempien@coretechnology.pl'
-passw ='Sigma2017@'
+email = ''
+passw =''
 message = 'Tin nhan thu 3'
 ids=['278704599679113','2283359851932462','2192140324217507','447580675997425','797978367269285','2377284532324008','2148843068562324','2336619386627058','627855861064357','2863079640399056']
 
